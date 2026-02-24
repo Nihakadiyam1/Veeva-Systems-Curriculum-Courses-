@@ -1,2 +1,0 @@
-ls: cannot access '/nonexistent_directory': No such file or directory
-grep: /nonexistent_file: No such file or directory
