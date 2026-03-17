@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T12:36:57 IST" name="Default suite" finished-at="2026-03-17T12:37:12 IST" duration-ms="14818">
+    <groups>
+    </groups>
+    <test started-at="2026-03-17T12:36:57 IST" name="Default test" finished-at="2026-03-17T12:37:12 IST" duration-ms="14818">
+      <class name="SeleniumWithTestNG.SeleniumWithTestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumWithTestNG.SeleniumWithTestNG@76505305]" started-at="2026-03-17T12:36:57 IST" name="setUp" finished-at="2026-03-17T12:37:04 IST" duration-ms="6569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:SeleniumWithTestNG.SeleniumWithTestNG@76505305]" started-at="2026-03-17T12:37:04 IST" name="loginTest" finished-at="2026-03-17T12:37:05 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumWithTestNG.SeleniumWithTestNG@76505305]" started-at="2026-03-17T12:37:05 IST" name="tearDown" finished-at="2026-03-17T12:37:06 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumWithTestNG.SeleniumWithTestNG@76505305]" started-at="2026-03-17T12:37:06 IST" name="setUp" finished-at="2026-03-17T12:37:11 IST" duration-ms="5207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:2, instance:SeleniumWithTestNG.SeleniumWithTestNG@76505305]" started-at="2026-03-17T12:37:11 IST" name="invalidLoginTest" finished-at="2026-03-17T12:37:11 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumWithTestNG.SeleniumWithTestNG@76505305]" started-at="2026-03-17T12:37:11 IST" name="tearDown" finished-at="2026-03-17T12:37:12 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumWithTestNG.SeleniumWithTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
