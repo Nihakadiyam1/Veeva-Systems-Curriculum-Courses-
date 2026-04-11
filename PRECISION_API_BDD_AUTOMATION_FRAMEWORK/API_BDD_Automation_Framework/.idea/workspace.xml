@@ -1,36 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ce433d-d048-4680-8c70-b56a0de7dd95" name="Changes" comment="" />
+    <list default="true" id="6441d331-70b8-49e9-bf18-211011a9096a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pojo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/.idea/runConfigurations/PetTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/logs/application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/main/java/API_Automation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/client/PetClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/client/StoreClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/client/UserClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/runners/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/stepdefinitions/PetSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/tests/PetTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/utils/AssertionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/utils/ConfigReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/utils/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/utils/DataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/java/utils/ExtentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/pojo/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/resources/features/pet_lifecycle.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/resources/features/store_inventory.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/resources/features/user_negative.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/src/test/resources/pet-schema.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="3CAonx1Ro6Va7DXdXMNvd8Bev2X" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3BqcQTHPPuuqF5R0mlZpeKDgi2Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Cucumber Java.Feature: pet.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "kotlin-language-version-configured": "true"
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG.PetTests (1).executor": "Run",
+    "TestNG.PetTests.executor": "Run",
+    "TestNG.PetTests.testPetLifeCycle.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Automation/API_Automation/test-output/src/main/java/API_Automation/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Automation\API_Automation\src\test\resources" />
+      <recent name="C:\Automation\API_Automation\src\test\java\utils" />
+      <recent name="C:\Automation\API_Automation\src\test\java\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PetTests">
+    <configuration name="Feature: pet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/pet.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="API_Automation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
+      <option name="SUGGESTED_NAME" value="Feature: pet" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Automation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PetTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PetTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36ce433d-d048-4680-8c70-b56a0de7dd95" name="Changes" comment="" />
-      <created>1775837906449</created>
+      <changelist id="6441d331-70b8-49e9-bf18-211011a9096a" name="Changes" comment="" />
+      <created>1775220029739</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1775837906449</updated>
+      <updated>1775220029739</updated>
+      <workItem from="1775220032220" duration="48000" />
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/API_Automation/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-output/src/main/java/API_Automation/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../API_Automation_zip/API_Automation/src/test/java/tests/PetTests.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/API_Automation$PetTests__1_.ic" NAME="PetTests (1) Coverage Results" MODIFIED="1775745888644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

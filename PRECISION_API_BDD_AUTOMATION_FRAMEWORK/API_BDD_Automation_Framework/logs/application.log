@@ -191,3 +191,30 @@
 2026-04-10 22:31:35 [main] INFO  PetTests - Pet Lifecycle Test Completed
 2026-04-10 22:31:37 [main] INFO  ExtentManager - Initializing Extent Report at: target/ExtentReport_20260410_223137.html
 2026-04-10 22:31:37 [main] INFO  ExtentManager - Extent Report initialized successfully
+2026-04-11 07:32:22 [main] INFO  BaseTest - Initializing Test Setup...
+2026-04-11 07:32:22 [main] INFO  ConfigReader - Configuration loaded successfully from: src/test/resources/config.properties
+2026-04-11 07:32:22 [main] INFO  ConfigReader - Fetching config -> base.url = https://petstore.swagger.io/v2
+2026-04-11 07:32:23 [main] INFO  BaseTest - Base URI set to: https://petstore.swagger.io/v2
+2026-04-11 07:32:23 [main] INFO  PetTests - Initialized test data -> ID: 46969, Name: pet_46969
+2026-04-11 07:32:23 [main] INFO  PetTests - Starting Negative User Test
+2026-04-11 07:32:27 [main] INFO  PetTests - Create user response code: 200
+2026-04-11 07:32:31 [main] INFO  PetTests - Login response: {"code":200,"type":"unknown","message":"logged in user session:1775872951300"}
+2026-04-11 07:32:31 [main] INFO  BaseTest - Initializing Test Setup...
+2026-04-11 07:32:31 [main] INFO  ConfigReader - Fetching config -> base.url = https://petstore.swagger.io/v2
+2026-04-11 07:32:31 [main] INFO  BaseTest - Base URI set to: https://petstore.swagger.io/v2
+2026-04-11 07:32:31 [main] INFO  PetTests - Initialized test data -> ID: 20564, Name: pet_20564
+2026-04-11 07:32:31 [main] INFO  PetTests - Starting Cross Endpoint Test
+2026-04-11 07:32:41 [main] INFO  BaseTest - Initializing Test Setup...
+2026-04-11 07:32:41 [main] INFO  ConfigReader - Fetching config -> base.url = https://petstore.swagger.io/v2
+2026-04-11 07:32:41 [main] INFO  BaseTest - Base URI set to: https://petstore.swagger.io/v2
+2026-04-11 07:32:41 [main] INFO  PetTests - Initialized test data -> ID: 53663, Name: pet_53663
+2026-04-11 07:32:41 [main] INFO  PetTests - Starting Inventory Test
+2026-04-11 07:32:46 [main] INFO  PetTests - Inventory count: 450, API count: 450
+2026-04-11 07:32:46 [main] INFO  BaseTest - Initializing Test Setup...
+2026-04-11 07:32:46 [main] INFO  ConfigReader - Fetching config -> base.url = https://petstore.swagger.io/v2
+2026-04-11 07:32:46 [main] INFO  BaseTest - Base URI set to: https://petstore.swagger.io/v2
+2026-04-11 07:32:46 [main] INFO  PetTests - Initialized test data -> ID: 12728, Name: pet_12728
+2026-04-11 07:32:46 [main] INFO  PetTests - Starting Pet Lifecycle Test
+2026-04-11 07:32:54 [main] INFO  PetTests - Pet Lifecycle Test Completed
+2026-04-11 07:32:56 [main] INFO  ExtentManager - Initializing Extent Report at: target/ExtentReport_20260411_073256.html
+2026-04-11 07:32:57 [main] INFO  ExtentManager - Extent Report initialized successfully
