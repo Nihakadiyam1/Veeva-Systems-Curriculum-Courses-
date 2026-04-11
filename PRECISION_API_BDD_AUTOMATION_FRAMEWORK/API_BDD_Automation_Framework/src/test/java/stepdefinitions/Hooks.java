@@ -12,8 +12,10 @@ import utils.ExtentManager;
 
 public class Hooks {
 
+    // ✅ Make final (good practice)
     private static final ExtentReports extent = ExtentManager.getInstance();
 
+    // ❗ Do NOT make final
     private static ExtentTest test;
 
     @Before
