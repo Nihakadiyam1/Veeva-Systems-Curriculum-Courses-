@@ -79,13 +79,3 @@ Before running the project, ensure the following are installed:
          Validate error responses
       4. Cross-Endpoint Data Consistency
          Create pet → Update status → Validate in inventory & findByStatus
-
-8. Reporting
-   Extent Reports are generated after execution
-   Report location:
-   target/ExtentReport.html
-   Cucumber Report is generated after execution
-   Report Location
-   target/CucumberReport.html
-
-9. Logging info is seen in terminal
