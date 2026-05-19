@@ -1,143 +1,169 @@
 package stepdefinitions;
 
-import client.PetClient;
-import client.UserClient;
+import context.TestContext;
 import io.cucumber.java.en.*;
 import io.restassured.response.Response;
-import org.testng.Assert;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import utils.ApiUtils;
 import utils.DataGenerator;
 
-import java.util.List;
+import java.util.*;
+
+        import static org.junit.jupiter.api.Assertions.*;
 
 public class PetSteps {
+    private static final Logger logger = LogManager.getLogger(PetSteps.class);
+    private final TestContext context;
 
-    PetClient petClient = new PetClient();
-    UserClient userClient = new UserClient();
-
-    Response response;
-    int petId;
-    String petName;
-    String initialStatus;
-
-    // =========================
-    // TEST CASE 1: PET LIFECYCLE
-    // =========================
-
-    @Given("I create a pet with status {string}")
-    public void createPet(String status) {
-
-        petId = DataGenerator.getRandomId();
-        petName = DataGenerator.getRandomName();
-        initialStatus = status;
-
-        String body = "{ \"id\": " + petId + ", \"name\": \"" + petName + "\", \"status\": \"" + status + "\" }";
-
-        response = petClient.createPet(body);
-
-        Assert.assertEquals(response.getStatusCode(), 200);
-
-        // Extract ID from response
-        petId = response.jsonPath().getInt("id");
+    public PetSteps(TestContext context) {
+        this.context = context;
     }
 
-    @When("I get the pet")
-    public void getPet() {
-        response = petClient.getPet(petId);
+    @Given("I have a pet with name {string} and status {string}")
+    public void iHaveAPetWithNameAndStatus(String petName, String status) {
+        String uniquePetName = DataGenerator.generateUniquePetName(petName);
+        long petId = DataGenerator.generateUniqueId();
+
+        Map<String, Object> pet = new HashMap<>();
+        pet.put("id", petId);
+        pet.put("name", uniquePetName);
+        pet.put("status", status);
+        pet.put("photoUrls", List.of("[example.com](https://example.com/photo.jpg)"));
+
+        Map<String, Object> category = new HashMap<>();
+        category.put("id", 1);
+        category.put("name", "Dogs");
+        pet.put("category", category);
+
+        context.setContext("petPayload", pet);
+        context.setContext("expectedPetName", uniquePetName);
+        context.setContext("expectedStatus", status);
+
+        logger.info("Prepared pet payload with name: {} and status: {}", uniquePetName, status);
     }
 
-    @Then("validate pet details")
-    public void validatePet() {
-        Assert.assertEquals(response.jsonPath().getString("name"), petName);
-        Assert.assertEquals(response.jsonPath().getString("status"), initialStatus);
+    @Given("I have a pet with category {string} and status {string}")
+    public void iHaveAPetWithCategoryAndStatus(String categoryName, String status) {
+        String uniquePetName = DataGenerator.generateUniquePetName("Pet");
+        long petId = DataGenerator.generateUniqueId();
+
+        Map<String, Object> pet = new HashMap<>();
+        pet.put("id", petId);
+        pet.put("name", uniquePetName);
+        pet.put("status", status);
+        pet.put("photoUrls", List.of("[example.com](https://example.com/photo.jpg)"));
+
+        Map<String, Object> category = new HashMap<>();
+        category.put("id", DataGenerator.generateUniqueId());
+        category.put("name", categoryName);
+        pet.put("category", category);
+
+        context.setContext("petPayload", pet);
+        context.setContext("expectedPetName", uniquePetName);
+        context.setContext("expectedStatus", status);
+        context.setContext("categoryName", categoryName);
+
+        logger.info("Prepared pet payload with category: {} and status: {}", categoryName, status);
     }
 
-    @When("I update pet to {string}")
-    public void updatePet(String status) {
-
-        String body = "{ \"id\": " + petId + ", \"name\": \"" + petName + "\", \"status\": \"" + status + "\" }";
-
-        response = petClient.updatePet(body);
-        Assert.assertEquals(response.getStatusCode(), 200);
+    @When("I create the pet via POST \\/pet")
+    public void iCreateThePetViaPOSTPet() {
+        Map<String, Object> petPayload = context.getContext("petPayload");
+        Response response = ApiUtils.post("/pet", petPayload);
+        context.setResponse(response);
     }
 
-    @When("I delete the pet")
-    public void deletePet() {
-        response = petClient.deletePet(petId);
-        Assert.assertEquals(response.getStatusCode(), 200);
+    @When("I retrieve the pet via GET \\/pet\\/\\{petId}")
+    public void iRetrieveThePetViaGETPetPetId() {
+        Long petId = context.getContext("petId");
+        Response response = ApiUtils.get("/pet/" + petId);
+        context.setResponse(response);
     }
 
-    @Then("pet should be deleted")
-    public void verifyDeleted() {
-        response = petClient.getPet(petId);
-        Assert.assertEquals(response.getStatusCode(), 404);
+    @When("I update the pet status to {string} via PUT \\/pet")
+    public void iUpdateThePetStatusToPUTPet(String newStatus) {
+        Map<String, Object> petPayload = context.getContext("petPayload");
+        Long petId = context.getContext("petId");
+
+        petPayload.put("id", petId);
+        petPayload.put("status", newStatus);
+        context.setContext("expectedStatus", newStatus);
+
+        Response response = ApiUtils.put("/pet", petPayload);
+        context.setResponse(response);
     }
 
-    // =========================
-    // TEST CASE 2: INVENTORY
-    // =========================
-
-    @When("I fetch inventory")
-    public void fetchInventory() {
-        response = petClient.getInventory();
+    @When("I delete the pet via DELETE \\/pet\\/\\{petId}")
+    public void iDeleteThePetViaDELETEPetPetId() {
+        Long petId = context.getContext("petId");
+        Response response = ApiUtils.delete("/pet/" + petId);
+        context.setResponse(response);
     }
 
-    @Then("inventory should match available pets")
-    public void validateInventory() {
-
-        int inventoryCount = response.jsonPath().getInt("available");
-
-        Response pets = petClient.getPetsByStatus("available");
-        int apiCount = pets.jsonPath().getList("$").size();
-
-        Assert.assertEquals(apiCount, inventoryCount);
+    @When("I fetch pets by status {string} via GET \\/pet\\/findByStatus")
+    public void iFetchPetsByStatusViaGETPetFindByStatus(String status) {
+        Map<String, String> params = Map.of("status", status);
+        Response response = ApiUtils.get("/pet/findByStatus", params);
+        context.setResponse(response);
+        context.setContext("currentStatus", status);
     }
 
-    // =========================
-    // TEST CASE 3: NEGATIVE
-    // =========================
-
-    @Given("I create user with invalid email")
-    public void createInvalidUser() {
-
-        String body = "{ \"username\": \"" + DataGenerator.getUniqueUsername() + "\", \"email\": \"invalid_email\" }";
-
-        response = userClient.createUser(body);
+    @Then("the response status code should be {int}")
+    public void theResponseStatusCodeShouldBe(int expectedStatusCode) {
+        Response response = context.getResponse();
+        assertEquals(expectedStatusCode, response.getStatusCode(),
+                "Expected status code " + expectedStatusCode + " but got " + response.getStatusCode());
     }
 
-    @When("I fetch non existing user")
-    public void fetchInvalidUser() {
-        response = userClient.getUser("nonExistentUser123");
+    @Then("I extract the pet ID from the response")
+    public void iExtractThePetIdFromTheResponse() {
+        Response response = context.getResponse();
+        Long petId = response.jsonPath().getLong("id");
+        context.setContext("petId", petId);
+        logger.info("Extracted pet ID: {}", petId);
     }
 
-    @Then("user should not exist")
-    public void validateUserNotFound() {
-        Assert.assertEquals(response.getStatusCode(), 404);
-        Assert.assertTrue(response.asString().contains("User not found"));
+    @Then("the pet name should be {string}")
+    public void thePetNameShouldBe(String expectedName) {
+        // Using dynamic name stored in context
+        String expectedPetName = context.getContext("expectedPetName");
+        Response response = context.getResponse();
+        String actualName = response.jsonPath().getString("name");
+        assertTrue(actualName.startsWith(expectedName) || actualName.equals(expectedPetName),
+                "Pet name mismatch. Expected to start with: " + expectedName);
     }
 
-    @When("I login with invalid credentials")
-    public void invalidLogin() {
-        response = userClient.login("wrongUser", "wrongPass");
+    @Then("the pet status should be {string}")
+    public void thePetStatusShouldBe(String expectedStatus) {
+        Response response = context.getResponse();
+        String actualStatus = response.jsonPath().getString("status");
+        assertEquals(expectedStatus, actualStatus, "Pet status mismatch");
     }
 
-    @Then("no session token should be returned")
-    public void validateInvalidLogin() {
-        Assert.assertFalse(response.asString().toLowerCase().contains("session"));
-    }
+    @Then("the created pet should exist in the sold pets list using streams")
+    public void theCreatedPetShouldExistInTheSoldPetsListUsingStreams() {
+        Response response = context.getResponse();
+        Long createdPetId = context.getContext("petId");
 
-    // =========================
-    // TEST CASE 4: CROSS ENDPOINT
-    // =========================
+        List<Map<String, Object>> pets = response.jsonPath().getList("");
 
-    @Then("pet should exist in sold list")
-    public void crossEndpointValidation() {
+        boolean petFound = pets.stream()
+                .filter(pet -> pet.get("id") != null)
+                .anyMatch(pet -> {
+                    Object idObj = pet.get("id");
+                    long petId;
+                    if (idObj instanceof Integer) {
+                        petId = ((Integer) idObj).longValue();
+                    } else if (idObj instanceof Long) {
+                        petId = (Long) idObj;
+                    } else {
+                        petId = Long.parseLong(idObj.toString());
+                    }
+                    return petId == createdPetId;
+                });
 
-        Response soldPets = petClient.getPetsByStatus("sold");
-
-        List<Integer> ids = soldPets.jsonPath().getList("id");
-
-        boolean found = ids.stream().anyMatch(id -> id == petId);
-
-        Assert.assertTrue(found);
+        assertTrue(petFound, "Created pet with ID " + createdPetId + " not found in sold pets list");
+        logger.info("Successfully found pet ID {} in sold pets list using Java Streams", createdPetId);
     }
 }

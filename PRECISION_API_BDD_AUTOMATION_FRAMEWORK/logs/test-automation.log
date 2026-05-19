@@ -1,0 +1,1625 @@
+2026-05-05 19:23:07.398 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-05 19:23:07.417 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-05 19:23:07.418 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:23:09.695 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-05 19:23:09.698 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:23:09.789 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-05 19:23:09.792 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:23:09.949 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:23:10.040 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:23:10.139 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:23:10.295 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_4e286a71 and status: available
+2026-05-05 19:23:10.297 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:23:10.537 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_323d5836 and status: pending
+2026-05-05 19:23:10.539 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:23:10.630 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_6bc0a8d1 and status: available
+2026-05-05 19:23:10.634 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:23:10.703 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_2260e281 and invalid email: invalid_email
+2026-05-05 19:23:10.705 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:23:10.753 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_9250835b and invalid email: no_at_symbol
+2026-05-05 19:23:10.756 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:23:10.820 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_92c5728c and invalid email: @nodomain
+2026-05-05 19:23:10.822 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:23:10.857 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-05 19:23:10.911 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-05 19:23:10.983 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-05 19:33:15.152 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-05 19:33:15.172 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-05 19:33:15.172 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:33:17.823 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-05 19:33:17.826 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:33:17.952 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-05 19:33:17.955 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:33:18.091 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:33:18.184 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:33:18.339 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:33:19.252 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_a1f2f7ca and status: available
+2026-05-05 19:33:19.253 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:33:19.414 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_54d0e53e and status: pending
+2026-05-05 19:33:19.415 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:33:19.504 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_41622895 and status: available
+2026-05-05 19:33:19.506 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:33:19.633 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_020e904e and invalid email: invalid_email
+2026-05-05 19:33:19.636 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:33:19.891 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_dd949d2d and invalid email: no_at_symbol
+2026-05-05 19:33:19.893 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:33:20.037 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_5d270517 and invalid email: @nodomain
+2026-05-05 19:33:20.040 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:33:20.101 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-05 19:33:20.141 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-05 19:33:20.226 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-05 19:36:34.463 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-05 19:36:34.482 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-05 19:36:34.482 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:36:42.434 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:43.912 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1777989999920
+2026-05-05 19:36:43.914 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-05 19:36:45.491 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:45.496 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:36:47.135 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:47.142 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-05 19:36:48.894 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:49.026 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1777989999920 in sold pets list using Java Streams
+2026-05-05 19:36:49.100 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-05 19:36:49.109 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:36:50.916 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:50.943 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1777990017685
+2026-05-05 19:36:50.946 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-05 19:36:52.557 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:52.563 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:36:54.198 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:54.201 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-05 19:36:55.863 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:55.909 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1777990017685 in sold pets list using Java Streams
+2026-05-05 19:36:55.938 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-05 19:36:55.939 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:36:57.675 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:57.696 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1777990022146
+2026-05-05 19:36:57.697 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-05 19:36:59.314 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:36:59.318 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:37:00.955 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:00.958 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-05 19:37:02.602 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:02.623 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1777990022146 in sold pets list using Java Streams
+2026-05-05 19:37:02.710 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:37:04.330 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:04.333 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 493
+2026-05-05 19:37:04.336 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-05 19:37:06.711 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:07.143 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 493, Inventory count: 493
+2026-05-05 19:37:07.144 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 493, Inventory: 493 (Status: available)
+2026-05-05 19:37:07.198 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:37:08.836 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:08.841 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 7
+2026-05-05 19:37:08.842 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-05 19:37:10.582 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:10.589 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 7, Inventory count: 7
+2026-05-05 19:37:10.589 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 7, Inventory: 7 (Status: pending)
+2026-05-05 19:37:10.609 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-05 19:37:12.214 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:12.216 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 41
+2026-05-05 19:37:12.218 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-05 19:37:13.755 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:13.762 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 41, Inventory count: 41
+2026-05-05 19:37:13.763 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 41, Inventory: 41 (Status: sold)
+2026-05-05 19:37:13.799 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_a058a878 and status: available
+2026-05-05 19:37:13.804 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:37:15.593 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:15.626 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1777990040106
+2026-05-05 19:37:15.627 [main] INFO  utils.ApiUtils - GET request to: /pet/1777990040106
+2026-05-05 19:37:17.334 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:17.460 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-05 19:37:19.075 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:19.101 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1777990040106
+2026-05-05 19:37:20.713 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:20.715 [main] INFO  utils.ApiUtils - GET request to: /pet/1777990040106
+2026-05-05 19:37:22.249 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-05 19:37:22.269 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_541d6510 and status: pending
+2026-05-05 19:37:22.271 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:37:23.989 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:24.013 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1777990043388
+2026-05-05 19:37:24.013 [main] INFO  utils.ApiUtils - GET request to: /pet/1777990043388
+2026-05-05 19:37:25.634 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:25.677 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-05 19:37:27.267 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:27.286 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1777990043388
+2026-05-05 19:37:28.907 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:28.908 [main] INFO  utils.ApiUtils - GET request to: /pet/1777990043388
+2026-05-05 19:37:30.443 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-05 19:37:30.460 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_72acd74c and status: available
+2026-05-05 19:37:30.461 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-05 19:37:32.080 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:32.102 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1777990059918
+2026-05-05 19:37:32.104 [main] INFO  utils.ApiUtils - GET request to: /pet/1777990059918
+2026-05-05 19:37:33.617 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:33.672 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-05 19:37:35.358 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:35.387 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1777990059918
+2026-05-05 19:37:36.996 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:36.999 [main] INFO  utils.ApiUtils - GET request to: /pet/1777990059918
+2026-05-05 19:37:38.639 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-05 19:37:38.660 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_69b929ae and invalid email: invalid_email
+2026-05-05 19:37:38.662 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:37:40.273 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:40.291 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_6bdbc370 and invalid email: no_at_symbol
+2026-05-05 19:37:40.294 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:37:41.913 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:41.932 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_a07f3d33 and invalid email: @nodomain
+2026-05-05 19:37:41.933 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-05 19:37:43.651 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:43.660 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-05 19:37:45.190 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-05 19:37:45.206 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-05 19:37:46.809 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:46.832 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1777990068671
+2026-05-05 19:37:46.898 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-05 19:37:46.912 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-05 19:37:48.464 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-05 19:37:48.483 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1777990070309
+2026-05-05 19:37:48.483 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:30:28.673 [main] INFO  hooks.ExtentHooks - ========== TEST SUITE STARTED ==========
+2026-05-06 11:30:28.683 [main] INFO  hooks.ExtentHooks - ExtentReports Cucumber7 adapter is active — report will be written to target/extent-reports/ExtentReport.html
+2026-05-06 11:30:29.096 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:29.105 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:30:29.106 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:30:29.107 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:30:29.113 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-06 11:30:29.118 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-06 11:30:29.118 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:30:34.844 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:36.041 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047235632
+2026-05-06 11:30:36.043 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:30:38.132 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:38.137 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:30:39.666 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:39.669 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:30:41.328 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:41.406 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047235632 in sold pets list using Java Streams
+2026-05-06 11:30:41.412 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:30:41.413 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:41.508 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:41.509 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:30:41.510 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:30:41.512 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:30:41.517 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-06 11:30:41.523 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:30:43.251 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:43.298 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047241968
+2026-05-06 11:30:43.299 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:30:44.994 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:44.996 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:30:46.631 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:46.633 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:30:48.282 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:48.299 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047241968 in sold pets list using Java Streams
+2026-05-06 11:30:48.301 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:30:48.301 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:48.332 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:48.333 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:30:48.334 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:30:48.334 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:30:48.336 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-06 11:30:48.339 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:30:49.909 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:49.933 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047251270
+2026-05-06 11:30:49.934 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:30:51.548 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:51.549 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:30:53.185 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:53.188 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:30:54.729 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:54.763 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047251270 in sold pets list using Java Streams
+2026-05-06 11:30:54.765 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:30:54.766 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:54.802 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:54.803 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:30:54.803 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:30:54.804 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:30:54.805 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:30:56.361 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:56.365 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 227
+2026-05-06 11:30:56.366 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-06 11:30:58.275 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:30:58.495 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 227, Inventory count: 227
+2026-05-06 11:30:58.496 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 227, Inventory: 227 (Status: available)
+2026-05-06 11:30:58.498 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:30:58.499 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:58.524 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:30:58.524 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:30:58.525 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:30:58.525 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:30:58.527 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:31:00.152 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:00.155 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 10
+2026-05-06 11:31:00.157 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-06 11:31:01.790 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:01.798 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 10, Inventory count: 10
+2026-05-06 11:31:01.799 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 10, Inventory: 10 (Status: pending)
+2026-05-06 11:31:01.800 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:31:01.800 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:01.814 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:01.816 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:31:01.816 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:31:01.817 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:31:01.819 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:31:03.424 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:03.427 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 34
+2026-05-06 11:31:03.428 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:31:05.037 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:05.043 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 34, Inventory count: 34
+2026-05-06 11:31:05.044 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 34, Inventory: 34 (Status: sold)
+2026-05-06 11:31:05.044 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:31:05.045 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:05.144 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:05.146 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:31:05.147 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:31:05.149 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:31:05.153 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_fed415ea and status: available
+2026-05-06 11:31:05.159 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:31:06.700 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:06.729 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047272152
+2026-05-06 11:31:06.783 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047272152
+2026-05-06 11:31:08.644 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:08.692 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:31:10.284 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:10.305 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778047272152
+2026-05-06 11:31:12.127 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:12.130 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047272152
+2026-05-06 11:31:13.678 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:31:13.687 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:31:13.688 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:13.730 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:13.733 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:31:13.734 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:31:13.735 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:31:13.740 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_72613cc8 and status: pending
+2026-05-06 11:31:13.748 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:31:15.403 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:15.424 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047275385
+2026-05-06 11:31:15.426 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047275385
+2026-05-06 11:31:17.042 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:17.125 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:31:18.785 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:18.803 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778047275385
+2026-05-06 11:31:20.423 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:20.425 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047275385
+2026-05-06 11:31:21.893 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:31:21.894 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:31:21.895 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:21.906 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:21.907 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:31:21.907 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:31:21.908 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:31:21.909 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_1d8a7d92 and status: available
+2026-05-06 11:31:21.910 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:31:23.476 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:23.495 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047291797
+2026-05-06 11:31:23.496 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047291797
+2026-05-06 11:31:25.030 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:25.080 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:31:26.669 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:26.695 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778047291797
+2026-05-06 11:31:28.308 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:28.310 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047291797
+2026-05-06 11:31:29.843 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:31:29.844 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:31:29.844 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:29.867 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:29.867 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:31:29.868 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:31:29.868 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:31:29.870 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_7a74262a and invalid email: invalid_email
+2026-05-06 11:31:29.871 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:31:31.480 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:31.482 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:31:31.482 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:31.492 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:31.493 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:31:31.493 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:31:31.493 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:31:31.494 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_2a9baccd and invalid email: no_at_symbol
+2026-05-06 11:31:31.495 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:31:33.221 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:33.222 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:31:33.222 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:33.231 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:33.232 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:31:33.232 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:31:33.232 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:31:33.233 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_6afd11b0 and invalid email: @nodomain
+2026-05-06 11:31:33.234 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:31:34.863 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:34.865 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:31:34.865 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:34.876 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:34.876 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-06 11:31:34.876 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:31:34.876 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:31:34.877 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-06 11:31:36.601 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:31:36.604 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Fetch non-existent user returns 404
+2026-05-06 11:31:36.604 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:36.612 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:36.613 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:31:36.614 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:31:36.614 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:31:36.615 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-06 11:31:38.240 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:38.268 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778047300061
+2026-05-06 11:31:38.269 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:31:38.271 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Login with incorrect credentials fails
+2026-05-06 11:31:38.271 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:38.279 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:38.279 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:31:38.280 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:31:38.280 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:31:38.280 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-06 11:31:39.879 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:31:39.896 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778047301704
+2026-05-06 11:31:39.896 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:31:39.897 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Login with incorrect credentials fails
+2026-05-06 11:31:39.897 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:31:39.902 [main] INFO  hooks.ExtentHooks - ========== TEST SUITE FINISHED ==========
+2026-05-06 11:31:39.902 [main] INFO  hooks.ExtentHooks - Extent HTML report: target/extent-reports/ExtentReport.html
+2026-05-06 11:31:39.902 [main] INFO  hooks.ExtentHooks - Cucumber HTML     : target/cucumber-reports/cucumber.html
+2026-05-06 11:31:39.902 [main] INFO  hooks.ExtentHooks - Cucumber JSON     : target/cucumber-reports/cucumber.json
+2026-05-06 11:31:39.903 [main] INFO  hooks.ExtentHooks - Surefire Reports  : target/surefire-reports/
+2026-05-06 11:32:52.511 [main] INFO  hooks.ExtentHooks - ========== TEST SUITE STARTED ==========
+2026-05-06 11:32:52.523 [main] INFO  hooks.ExtentHooks - ExtentReports Cucumber7 adapter is active — report will be written to target/extent-reports/ExtentReport.html
+2026-05-06 11:32:53.000 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:32:53.013 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:32:53.014 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:32:53.015 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:32:53.025 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-06 11:32:53.034 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-06 11:32:53.035 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:32:59.438 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:01.267 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047375019
+2026-05-06 11:33:01.270 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:33:03.238 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:03.244 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:33:04.876 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:04.879 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:33:06.653 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:06.808 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047375019 in sold pets list using Java Streams
+2026-05-06 11:33:06.827 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:33:06.840 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:07.001 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:07.002 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:33:07.002 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:33:07.003 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:33:07.004 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-06 11:33:07.009 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:33:08.765 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:08.799 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047393699
+2026-05-06 11:33:08.801 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:33:10.404 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:10.406 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:33:11.939 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:11.942 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:33:13.710 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:13.742 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047393699 in sold pets list using Java Streams
+2026-05-06 11:33:13.745 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:33:13.745 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:13.772 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:13.775 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:33:13.776 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:33:13.776 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:33:13.778 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-06 11:33:13.780 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:33:15.423 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:15.450 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047396609
+2026-05-06 11:33:15.451 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:33:20.375 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:20.380 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:33:21.786 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:21.790 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:33:23.311 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:23.327 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047396609 in sold pets list using Java Streams
+2026-05-06 11:33:23.328 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:33:23.329 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:23.373 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:23.374 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:33:23.375 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:33:23.375 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:33:23.377 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:33:25.149 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:25.154 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 235
+2026-05-06 11:33:25.160 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-06 11:33:27.044 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:27.286 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 234, Inventory count: 235
+2026-05-06 11:33:27.286 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 234, Inventory: 235 (Status: available)
+2026-05-06 11:33:27.288 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:33:27.289 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:27.320 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:27.321 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:33:27.321 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:33:27.322 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:33:27.323 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:33:28.914 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:28.916 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 12
+2026-05-06 11:33:28.918 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-06 11:33:30.690 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:30.697 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 12, Inventory count: 12
+2026-05-06 11:33:30.698 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 12, Inventory: 12 (Status: pending)
+2026-05-06 11:33:30.699 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:33:30.701 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:30.732 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:30.732 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:33:30.733 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:33:30.733 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:33:30.745 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:33:32.422 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:32.427 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 41
+2026-05-06 11:33:32.428 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:33:34.063 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:34.071 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 41, Inventory count: 41
+2026-05-06 11:33:34.072 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 41, Inventory: 41 (Status: sold)
+2026-05-06 11:33:34.073 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:33:34.073 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:34.096 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:34.096 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:33:34.096 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:33:34.096 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:33:34.098 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_23ef6ac0 and status: available
+2026-05-06 11:33:34.100 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:33:35.593 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:35.618 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047417158
+2026-05-06 11:33:35.620 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047417158
+2026-05-06 11:33:37.448 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:37.500 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:33:38.843 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:38.863 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778047417158
+2026-05-06 11:33:40.280 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:40.281 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047417158
+2026-05-06 11:33:41.840 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:33:41.844 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:33:41.844 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:41.862 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:41.864 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:33:41.865 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:33:41.865 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:33:41.867 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_1404f1c1 and status: pending
+2026-05-06 11:33:41.872 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:33:43.478 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:43.510 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047423951
+2026-05-06 11:33:43.511 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047423951
+2026-05-06 11:33:45.117 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:45.183 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:33:46.755 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:46.778 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778047423951
+2026-05-06 11:33:48.495 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:48.496 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047423951
+2026-05-06 11:33:50.237 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:33:50.242 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:33:50.243 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:50.259 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:50.260 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:33:50.260 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:33:50.261 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:33:50.263 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_ff796d46 and status: available
+2026-05-06 11:33:50.265 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:33:51.981 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:52.009 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047439875
+2026-05-06 11:33:52.010 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047439875
+2026-05-06 11:33:53.616 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:53.649 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:33:55.254 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:55.272 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778047439875
+2026-05-06 11:33:56.995 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:33:56.998 [main] INFO  utils.ApiUtils - GET request to: /pet/1778047439875
+2026-05-06 11:33:58.737 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:33:58.739 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:33:58.740 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:58.756 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:33:58.757 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:33:58.757 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:33:58.757 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:33:58.759 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_bd128f9a and invalid email: invalid_email
+2026-05-06 11:33:58.761 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:34:00.477 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:34:00.482 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:34:00.482 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:00.516 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:00.517 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:34:00.518 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:34:00.519 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:34:00.522 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_b3461291 and invalid email: no_at_symbol
+2026-05-06 11:34:00.524 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:34:02.217 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:34:02.219 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:34:02.219 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:02.227 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:02.228 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:34:02.229 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:34:02.230 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:34:02.232 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_88f44a2c and invalid email: @nodomain
+2026-05-06 11:34:02.233 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:34:03.856 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:34:03.858 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:34:03.858 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:03.869 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:03.870 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-06 11:34:03.870 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:34:03.871 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:34:03.873 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-06 11:34:05.496 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:34:05.499 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Fetch non-existent user returns 404
+2026-05-06 11:34:05.500 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:05.509 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:05.510 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:34:05.510 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:34:05.510 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:34:05.512 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-06 11:34:07.234 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:34:07.257 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778047448975
+2026-05-06 11:34:07.259 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:34:07.260 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Login with incorrect credentials fails
+2026-05-06 11:34:07.262 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:07.269 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:07.270 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:34:07.270 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:34:07.271 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:34:07.271 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-06 11:34:08.873 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:34:08.886 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778047450702
+2026-05-06 11:34:08.886 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:34:08.887 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Login with incorrect credentials fails
+2026-05-06 11:34:08.887 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:34:08.889 [main] INFO  hooks.ExtentHooks - ========== TEST SUITE FINISHED ==========
+2026-05-06 11:34:08.889 [main] INFO  hooks.ExtentHooks - Extent HTML report: target/extent-reports/ExtentReport.html
+2026-05-06 11:34:08.890 [main] INFO  hooks.ExtentHooks - Cucumber HTML     : target/cucumber-reports/cucumber.html
+2026-05-06 11:34:08.890 [main] INFO  hooks.ExtentHooks - Cucumber JSON     : target/cucumber-reports/cucumber.json
+2026-05-06 11:34:08.890 [main] INFO  hooks.ExtentHooks - Surefire Reports  : target/surefire-reports/
+2026-05-06 11:43:02.373 [main] INFO  hooks.ExtentHooks - ========== TEST SUITE STARTED ==========
+2026-05-06 11:43:02.382 [main] INFO  hooks.ExtentHooks - ExtentReports Cucumber7 adapter is active — report will be written to target/extent-reports/ExtentReport.html
+2026-05-06 11:43:02.707 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:02.716 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:43:02.717 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:43:02.717 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:43:02.724 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-06 11:43:02.730 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-06 11:43:02.730 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:43:08.266 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:09.537 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047991043
+2026-05-06 11:43:09.538 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:43:11.204 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:11.210 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:43:12.837 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:12.839 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:43:14.516 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:14.622 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047991043 in sold pets list using Java Streams
+2026-05-06 11:43:14.625 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:43:14.625 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:14.670 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:14.670 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:43:14.672 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:43:14.672 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:43:14.676 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-06 11:43:14.685 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:43:16.318 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:16.344 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778047997680
+2026-05-06 11:43:16.345 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:43:17.957 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:17.960 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:43:19.699 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:19.702 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:43:21.355 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:21.384 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778047997680 in sold pets list using Java Streams
+2026-05-06 11:43:21.385 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:43:21.386 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:21.423 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:21.424 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:43:21.424 [main] INFO  hooks.ExtentHooks - Tags            : [@crossendpoint, @integration]
+2026-05-06 11:43:21.425 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/cross_endpoint.feature
+2026-05-06 11:43:21.426 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-06 11:43:21.429 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:43:22.976 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:23.000 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048002802
+2026-05-06 11:43:23.002 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:43:24.614 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:24.616 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:43:26.253 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:26.256 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:43:27.901 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:27.919 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778048002802 in sold pets list using Java Streams
+2026-05-06 11:43:27.921 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify pet status change reflects across endpoints
+2026-05-06 11:43:27.925 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:27.993 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:27.994 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:43:27.995 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:43:27.995 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:43:28.008 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:43:29.734 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:29.740 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 252
+2026-05-06 11:43:29.741 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-06 11:43:31.836 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:31.940 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 252, Inventory count: 252
+2026-05-06 11:43:31.941 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 252, Inventory: 252 (Status: available)
+2026-05-06 11:43:31.943 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:43:31.944 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:31.967 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:31.968 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:43:31.968 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:43:31.969 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:43:31.971 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:43:33.526 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:33.530 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 13
+2026-05-06 11:43:33.532 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-06 11:43:35.171 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:35.177 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 13, Inventory count: 13
+2026-05-06 11:43:35.177 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 13, Inventory: 13 (Status: pending)
+2026-05-06 11:43:35.180 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:43:35.180 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:35.201 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:35.201 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:43:35.202 [main] INFO  hooks.ExtentHooks - Tags            : [@store, @inventory]
+2026-05-06 11:43:35.203 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/inventory_analysis.feature
+2026-05-06 11:43:35.204 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:43:36.798 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:36.801 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 45
+2026-05-06 11:43:36.803 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:43:38.646 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:38.657 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 45, Inventory count: 45
+2026-05-06 11:43:38.658 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 45, Inventory: 45 (Status: sold)
+2026-05-06 11:43:38.659 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Verify inventory count matches available pets
+2026-05-06 11:43:38.659 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:38.696 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:38.697 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:43:38.697 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:43:38.698 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:43:38.700 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_ddb6f86d and status: available
+2026-05-06 11:43:38.701 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:43:40.484 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:40.516 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048020450
+2026-05-06 11:43:40.517 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048020450
+2026-05-06 11:43:42.126 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:42.264 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:43:43.967 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:44.017 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778048020450
+2026-05-06 11:43:45.708 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:45.711 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048020450
+2026-05-06 11:43:47.244 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:43:47.246 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:43:47.246 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:47.263 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:47.264 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:43:47.268 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:43:47.269 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:43:47.270 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_9e6f90d4 and status: pending
+2026-05-06 11:43:47.272 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:43:48.898 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:48.962 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048029404
+2026-05-06 11:43:49.003 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048029404
+2026-05-06 11:43:50.627 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:50.672 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:43:52.163 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:52.190 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778048029404
+2026-05-06 11:43:53.870 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:53.872 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048029404
+2026-05-06 11:43:55.537 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:43:55.539 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:43:55.540 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:55.555 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:43:55.556 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:43:55.556 [main] INFO  hooks.ExtentHooks - Tags            : [@pet, @crud]
+2026-05-06 11:43:55.557 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/pet_lifecycle.feature
+2026-05-06 11:43:55.559 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_b1ddbc87 and status: available
+2026-05-06 11:43:55.561 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:43:57.175 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:57.197 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048043368
+2026-05-06 11:43:57.198 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048043368
+2026-05-06 11:43:59.019 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:43:59.082 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:44:00.657 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:00.678 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778048043368
+2026-05-06 11:44:02.297 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:02.299 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048043368
+2026-05-06 11:44:03.928 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:44:03.930 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:44:03.931 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:03.953 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:03.954 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:44:03.954 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:44:03.954 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:44:03.959 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_3d0c52e2 and invalid email: invalid_email
+2026-05-06 11:44:03.960 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:44:05.573 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:05.576 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:44:05.576 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:05.608 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:05.608 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:44:05.608 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:44:05.609 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:44:05.609 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_8aca461a and invalid email: no_at_symbol
+2026-05-06 11:44:05.610 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:44:07.211 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:07.213 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:44:07.213 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:07.223 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:07.223 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:44:07.223 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:44:07.224 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:44:07.225 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_02aa9403 and invalid email: @nodomain
+2026-05-06 11:44:07.226 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:44:08.952 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:08.954 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Create user with invalid email format
+2026-05-06 11:44:08.954 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:08.962 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:08.963 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-06 11:44:08.963 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:44:08.963 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:44:08.964 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-06 11:44:10.488 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:44:10.491 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Fetch non-existent user returns 404
+2026-05-06 11:44:10.491 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:10.502 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:10.502 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:44:10.503 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:44:10.504 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:44:10.505 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-06 11:44:12.127 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:12.156 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778048053942
+2026-05-06 11:44:12.157 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:44:12.159 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Login with incorrect credentials fails
+2026-05-06 11:44:12.160 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:12.170 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:12.171 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:44:12.171 [main] INFO  hooks.ExtentHooks - Tags            : [@user, @security, @negative]
+2026-05-06 11:44:12.172 [main] INFO  hooks.ExtentHooks - Feature URI     : classpath:features/user_security.feature
+2026-05-06 11:44:12.173 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-06 11:44:13.867 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:44:13.888 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778048055628
+2026-05-06 11:44:13.889 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:44:13.890 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED  : Login with incorrect credentials fails
+2026-05-06 11:44:13.891 [main] INFO  hooks.ExtentHooks - --------------------------------------------------
+2026-05-06 11:44:13.895 [main] INFO  hooks.ExtentHooks - ========== TEST SUITE FINISHED ==========
+2026-05-06 11:44:13.895 [main] INFO  hooks.ExtentHooks - Extent HTML report: target/extent-reports/ExtentReport.html
+2026-05-06 11:44:13.895 [main] INFO  hooks.ExtentHooks - Cucumber HTML     : target/cucumber-reports/cucumber.html
+2026-05-06 11:44:13.896 [main] INFO  hooks.ExtentHooks - Cucumber JSON     : target/cucumber-reports/cucumber.json
+2026-05-06 11:44:13.896 [main] INFO  hooks.ExtentHooks - Surefire Reports  : target/surefire-reports/
+2026-05-06 11:49:57.397 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:49:57.415 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-06 11:49:57.436 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-06 11:49:57.437 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:50:04.353 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:06.179 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048397713
+2026-05-06 11:50:06.183 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:50:07.882 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:07.890 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:50:09.507 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:09.518 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:50:11.186 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:11.276 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778048397713 in sold pets list using Java Streams
+2026-05-06 11:50:11.279 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-06 11:50:11.320 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:50:11.356 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-06 11:50:11.361 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:50:13.005 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:13.046 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048418003
+2026-05-06 11:50:13.049 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:50:14.634 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:14.639 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:50:16.169 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:16.174 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:50:17.823 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:17.849 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778048418003 in sold pets list using Java Streams
+2026-05-06 11:50:17.904 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-06 11:50:17.926 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 11:50:17.928 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-06 11:50:17.932 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:50:19.548 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:19.588 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048426001
+2026-05-06 11:50:19.591 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:50:21.190 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:21.197 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:50:22.826 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:22.833 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:50:24.349 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:24.379 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778048426001 in sold pets list using Java Streams
+2026-05-06 11:50:24.381 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-06 11:50:24.406 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:50:24.408 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:50:25.999 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:26.005 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 254
+2026-05-06 11:50:26.007 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-06 11:50:28.188 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:28.424 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 254, Inventory count: 254
+2026-05-06 11:50:28.425 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 254, Inventory: 254 (Status: available)
+2026-05-06 11:50:28.440 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-06 11:50:28.464 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:50:28.466 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:50:30.300 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:30.304 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 12
+2026-05-06 11:50:30.306 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-06 11:50:32.119 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:32.126 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 12, Inventory count: 12
+2026-05-06 11:50:32.127 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 12, Inventory: 12 (Status: pending)
+2026-05-06 11:50:32.129 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-06 11:50:32.144 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 11:50:32.146 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 11:50:33.679 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:33.685 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 47
+2026-05-06 11:50:33.688 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 11:50:35.322 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:35.331 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 47, Inventory count: 47
+2026-05-06 11:50:35.332 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 47, Inventory: 47 (Status: sold)
+2026-05-06 11:50:35.333 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-06 11:50:35.369 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:50:35.370 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_d82044f9 and status: available
+2026-05-06 11:50:35.373 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:50:36.947 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:36.991 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048437959
+2026-05-06 11:50:36.994 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048437959
+2026-05-06 11:50:39.108 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:39.162 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:50:40.722 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:40.756 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778048437959
+2026-05-06 11:50:42.387 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:42.391 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048437959
+2026-05-06 11:50:44.124 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:50:44.125 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:50:44.140 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:50:44.141 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_16955d2d and status: pending
+2026-05-06 11:50:44.145 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:50:45.764 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:45.785 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048447709
+2026-05-06 11:50:45.787 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048447709
+2026-05-06 11:50:47.401 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:47.443 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:50:49.039 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:49.069 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778048447709
+2026-05-06 11:50:50.678 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:50.682 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048447709
+2026-05-06 11:50:52.316 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:50:52.320 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:50:52.338 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:50:52.339 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_6bab1abf and status: available
+2026-05-06 11:50:52.341 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 11:50:54.163 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:54.187 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778048457703
+2026-05-06 11:50:54.190 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048457703
+2026-05-06 11:50:55.799 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:55.856 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 11:50:57.743 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:57.767 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778048457703
+2026-05-06 11:50:59.280 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:50:59.284 [main] INFO  utils.ApiUtils - GET request to: /pet/1778048457703
+2026-05-06 11:51:00.919 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:51:00.921 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 11:51:00.940 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:51:00.946 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_f3af9743 and invalid email: invalid_email
+2026-05-06 11:51:00.948 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:51:02.556 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:51:02.557 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-06 11:51:02.570 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:51:02.572 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_c838e675 and invalid email: no_at_symbol
+2026-05-06 11:51:02.584 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:51:04.405 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:51:04.409 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-06 11:51:04.422 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 11:51:04.423 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_109d1c6e and invalid email: @nodomain
+2026-05-06 11:51:04.426 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 11:51:06.142 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:51:06.145 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-06 11:51:06.157 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-06 11:51:06.158 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-06 11:51:07.780 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 11:51:07.787 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Fetch non-existent user returns 404
+2026-05-06 11:51:07.801 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:51:07.803 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-06 11:51:09.524 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:51:09.556 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778048471330
+2026-05-06 11:51:09.558 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:51:09.560 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-06 11:51:09.572 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 11:51:09.574 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-06 11:51:11.157 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 11:51:11.185 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778048472953
+2026-05-06 11:51:11.185 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 11:51:11.187 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-06 11:51:12.090 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-06 14:13:06.209 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 14:13:06.226 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-06 14:13:06.246 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-06 14:13:06.246 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 14:13:11.689 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:12.969 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778056992668
+2026-05-06 14:13:12.971 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 14:13:14.637 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:14.641 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 14:13:16.276 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:16.283 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 14:13:17.939 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:18.009 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778056992668 in sold pets list using Java Streams
+2026-05-06 14:13:18.012 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-06 14:13:18.042 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 14:13:18.044 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-06 14:13:18.046 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 14:13:19.757 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:19.780 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778057000183
+2026-05-06 14:13:19.782 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 14:13:21.498 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:21.505 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 14:13:23.136 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:23.138 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 14:13:24.804 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:24.832 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778057000183 in sold pets list using Java Streams
+2026-05-06 14:13:24.835 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-06 14:13:24.921 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-06 14:13:24.923 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-06 14:13:24.926 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 14:13:26.452 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:26.476 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778057007113
+2026-05-06 14:13:26.481 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 14:13:28.051 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:28.053 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 14:13:29.587 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:29.589 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 14:13:31.132 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:31.214 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778057007113 in sold pets list using Java Streams
+2026-05-06 14:13:31.216 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-06 14:13:31.247 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 14:13:31.249 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 14:13:32.862 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:32.865 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 281
+2026-05-06 14:13:32.867 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-06 14:13:35.207 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:35.295 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 281, Inventory count: 281
+2026-05-06 14:13:35.295 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 281, Inventory: 281 (Status: available)
+2026-05-06 14:13:35.298 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-06 14:13:35.446 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 14:13:35.449 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 14:13:37.265 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:37.267 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 5
+2026-05-06 14:13:37.268 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-06 14:13:39.111 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:39.116 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 5, Inventory count: 5
+2026-05-06 14:13:39.117 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 5, Inventory: 5 (Status: pending)
+2026-05-06 14:13:39.119 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-06 14:13:39.134 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-06 14:13:39.136 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-06 14:13:40.758 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:40.763 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 35
+2026-05-06 14:13:40.768 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-06 14:13:42.492 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:42.500 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 35, Inventory count: 35
+2026-05-06 14:13:42.501 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 35, Inventory: 35 (Status: sold)
+2026-05-06 14:13:42.503 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-06 14:13:42.526 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 14:13:42.527 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_3631b294 and status: available
+2026-05-06 14:13:42.529 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 14:13:44.126 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:44.150 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778057029358
+2026-05-06 14:13:44.150 [main] INFO  utils.ApiUtils - GET request to: /pet/1778057029358
+2026-05-06 14:13:45.764 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:45.800 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 14:13:47.400 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:47.430 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778057029358
+2026-05-06 14:13:49.037 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:49.045 [main] INFO  utils.ApiUtils - GET request to: /pet/1778057029358
+2026-05-06 14:13:50.577 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 14:13:50.578 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 14:13:50.589 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 14:13:50.591 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_3d2a9520 and status: pending
+2026-05-06 14:13:50.594 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 14:13:52.320 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:52.349 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778057038135
+2026-05-06 14:13:52.352 [main] INFO  utils.ApiUtils - GET request to: /pet/1778057038135
+2026-05-06 14:13:53.865 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:53.935 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 14:13:55.362 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:55.400 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778057038135
+2026-05-06 14:13:56.760 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:56.766 [main] INFO  utils.ApiUtils - GET request to: /pet/1778057038135
+2026-05-06 14:13:58.244 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 14:13:58.248 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 14:13:58.261 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 14:13:58.263 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_85c1b039 and status: available
+2026-05-06 14:13:58.265 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-06 14:13:59.669 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:13:59.690 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778057038748
+2026-05-06 14:13:59.692 [main] INFO  utils.ApiUtils - GET request to: /pet/1778057038748
+2026-05-06 14:14:02.160 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:02.209 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-06 14:14:04.371 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:04.386 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778057038748
+2026-05-06 14:14:05.960 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:05.963 [main] INFO  utils.ApiUtils - GET request to: /pet/1778057038748
+2026-05-06 14:14:07.327 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 14:14:07.331 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-06 14:14:07.348 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 14:14:07.350 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_bfa5d307 and invalid email: invalid_email
+2026-05-06 14:14:07.352 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 14:14:08.739 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:08.743 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-06 14:14:08.755 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 14:14:08.757 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_56c7827b and invalid email: no_at_symbol
+2026-05-06 14:14:08.759 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 14:14:10.088 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:10.090 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-06 14:14:10.099 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-06 14:14:10.100 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_8c6b90c7 and invalid email: @nodomain
+2026-05-06 14:14:10.101 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-06 14:14:11.469 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:11.471 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-06 14:14:11.478 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-06 14:14:11.479 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-06 14:14:12.902 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-06 14:14:12.910 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Fetch non-existent user returns 404
+2026-05-06 14:14:12.929 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 14:14:12.932 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-06 14:14:14.401 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:14.425 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778057056033
+2026-05-06 14:14:14.427 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 14:14:14.428 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-06 14:14:14.440 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-06 14:14:14.441 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-06 14:14:15.783 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-06 14:14:15.803 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778057057426
+2026-05-06 14:14:15.803 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-06 14:14:15.805 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-06 14:14:16.709 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 15:49:24.242 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:49:24.263 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 15:49:24.286 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 15:49:24.289 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:49:27.711 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:49:28.017 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:49:28.019 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 15:49:28.021 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:49:28.216 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:49:28.251 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:49:28.254 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 15:49:28.256 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:49:28.525 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:49:28.597 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:49:28.599 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:49:28.739 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:49:28.761 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:49:28.775 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:49:28.916 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:49:28.942 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:49:28.944 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:49:28.998 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:49:29.042 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:49:29.046 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_4b0fa39b and status: available
+2026-05-08 15:49:29.048 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:49:29.109 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:49:29.131 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:49:29.133 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_96fefa6b and status: pending
+2026-05-08 15:49:29.137 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:49:29.211 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:49:29.242 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:49:29.244 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_c1c4a4df and status: available
+2026-05-08 15:49:29.246 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:49:29.323 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:49:29.382 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:49:29.382 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_8039ed00 and invalid email: invalid_email
+2026-05-08 15:49:29.387 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:49:29.426 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:49:29.447 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:49:29.449 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_3604ce69 and invalid email: no_at_symbol
+2026-05-08 15:49:29.453 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:49:29.497 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:49:29.528 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:49:29.530 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_4d22f759 and invalid email: @nodomain
+2026-05-08 15:49:29.532 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:49:29.576 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:49:29.594 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 15:49:29.597 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 15:49:29.626 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Fetch non-existent user returns 404
+2026-05-08 15:49:29.640 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 15:49:29.642 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 15:49:29.700 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 15:49:29.714 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 15:49:29.714 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 15:49:29.750 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 15:49:30.767 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 15:52:15.368 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:52:15.382 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 15:52:15.416 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 15:52:15.416 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:52:18.592 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:52:18.740 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:52:18.742 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 15:52:18.748 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:52:18.946 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:52:19.040 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:52:19.042 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 15:52:19.044 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:52:19.145 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:52:19.190 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:52:19.195 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:52:19.295 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:52:19.318 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:52:19.321 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:52:19.377 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:52:19.427 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:52:19.431 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:52:19.488 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:52:19.555 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:52:19.558 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_b10747a8 and status: available
+2026-05-08 15:52:19.562 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:52:19.641 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:52:19.663 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:52:19.665 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_ac695517 and status: pending
+2026-05-08 15:52:19.669 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:52:19.808 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:52:19.828 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:52:19.828 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_35c7f17b and status: available
+2026-05-08 15:52:19.832 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:52:19.908 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:52:19.968 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:52:19.970 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_3945a94a and invalid email: invalid_email
+2026-05-08 15:52:19.974 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:52:20.077 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:52:20.118 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:52:20.120 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_938c182a and invalid email: no_at_symbol
+2026-05-08 15:52:20.124 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:52:20.193 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:52:20.223 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:52:20.225 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_48a53752 and invalid email: @nodomain
+2026-05-08 15:52:20.229 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:52:20.312 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:52:20.336 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 15:52:20.338 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 15:52:20.398 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Fetch non-existent user returns 404
+2026-05-08 15:52:20.422 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 15:52:20.424 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 15:52:20.567 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 15:52:20.609 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 15:52:20.609 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 15:52:20.669 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 15:52:21.841 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 15:57:14.915 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:57:14.923 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 15:57:14.946 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 15:57:14.952 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:57:18.212 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:57:18.280 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:57:18.282 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 15:57:18.286 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:57:18.374 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:57:18.424 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:57:18.424 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 15:57:18.429 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:57:18.511 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 15:57:18.561 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:57:18.561 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:57:18.650 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:57:18.684 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:57:18.686 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:57:18.737 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:57:18.841 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 15:57:18.841 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 15:57:18.886 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 15:57:18.945 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:57:18.950 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_989d8bb8 and status: available
+2026-05-08 15:57:18.954 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:57:19.051 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:57:19.087 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:57:19.096 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_86357099 and status: pending
+2026-05-08 15:57:19.098 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:57:19.209 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:57:19.245 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:57:19.248 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_825062cd and status: available
+2026-05-08 15:57:19.250 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 15:57:19.337 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 15:57:19.394 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:57:19.398 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_bcb9f7cc and invalid email: invalid_email
+2026-05-08 15:57:19.398 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:57:19.500 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:57:19.513 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:57:19.515 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_2efc5c1a and invalid email: no_at_symbol
+2026-05-08 15:57:19.517 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:57:19.581 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:57:19.618 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 15:57:19.623 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_f9c5675f and invalid email: @nodomain
+2026-05-08 15:57:19.624 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 15:57:19.676 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 15:57:19.696 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 15:57:19.696 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 15:57:19.754 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Fetch non-existent user returns 404
+2026-05-08 15:57:19.778 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 15:57:19.781 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 15:57:19.852 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 15:57:19.871 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 15:57:19.873 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 15:57:19.916 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 15:57:21.127 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 15:59:57.165 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 15:59:57.190 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 15:59:57.218 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 15:59:57.220 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:00:01.055 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 16:00:01.111 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:00:01.114 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 16:00:01.117 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:00:01.188 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 16:00:01.222 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:00:01.224 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 16:00:01.226 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:00:01.296 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 16:00:01.326 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:00:01.328 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:00:01.411 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 16:00:01.432 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:00:01.434 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:00:01.479 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 16:00:01.496 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:00:01.498 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:00:01.561 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 16:00:01.597 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:00:01.597 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_f5da71b3 and status: available
+2026-05-08 16:00:01.602 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:00:01.648 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:00:01.670 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:00:01.673 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_9c393f4d and status: pending
+2026-05-08 16:00:01.675 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:00:01.726 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:00:01.745 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:00:01.747 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_f0bcc3bf and status: available
+2026-05-08 16:00:01.749 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:00:01.799 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:00:01.835 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:00:01.835 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_a5661538 and invalid email: invalid_email
+2026-05-08 16:00:01.841 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:00:01.881 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 16:00:01.902 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:00:01.904 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_e91c22ec and invalid email: no_at_symbol
+2026-05-08 16:00:01.908 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:00:01.951 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 16:00:01.974 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:00:01.976 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_1bd66cfe and invalid email: @nodomain
+2026-05-08 16:00:01.992 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:00:02.038 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 16:00:02.060 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 16:00:02.062 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 16:00:02.104 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Fetch non-existent user returns 404
+2026-05-08 16:00:02.125 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:00:02.133 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 16:00:02.238 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 16:00:02.257 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:00:02.259 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 16:00:02.301 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 16:00:03.080 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 16:06:38.144 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:06:38.160 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 16:06:38.178 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 16:06:38.181 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:06:41.848 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 16:06:41.929 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:06:41.930 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 16:06:41.932 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:06:42.014 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 16:06:42.039 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:06:42.041 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 16:06:42.043 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:06:42.102 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify pet status change reflects across endpoints
+2026-05-08 16:06:42.131 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:06:42.135 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:06:42.240 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 16:06:42.277 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:06:42.279 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:06:42.323 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 16:06:42.344 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:06:42.346 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:06:42.385 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Verify inventory count matches available pets
+2026-05-08 16:06:42.412 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:06:42.414 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_17423f67 and status: available
+2026-05-08 16:06:42.415 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:06:42.466 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:06:42.491 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:06:42.493 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_b75c50fa and status: pending
+2026-05-08 16:06:42.494 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:06:42.570 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:06:42.590 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:06:42.592 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_c3c4cfbf and status: available
+2026-05-08 16:06:42.593 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:06:42.660 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:06:42.685 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:06:42.688 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_290ee951 and invalid email: invalid_email
+2026-05-08 16:06:42.691 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:06:42.728 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 16:06:42.745 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:06:42.746 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_019be47e and invalid email: no_at_symbol
+2026-05-08 16:06:42.751 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:06:42.786 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 16:06:42.802 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:06:42.804 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_530f283c and invalid email: @nodomain
+2026-05-08 16:06:42.807 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:06:42.838 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Create user with invalid email format
+2026-05-08 16:06:42.852 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 16:06:42.856 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 16:06:42.892 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Fetch non-existent user returns 404
+2026-05-08 16:06:42.907 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:06:42.909 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 16:06:42.966 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 16:06:42.979 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:06:42.983 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 16:06:43.019 [main] ERROR hooks.ExtentHooks - SCENARIO FAILED : Login with incorrect credentials fails
+2026-05-08 16:06:43.857 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 16:08:29.533 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:08:29.563 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 16:08:29.600 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 16:08:29.600 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:08:36.914 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:38.886 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778236714137
+2026-05-08 16:08:38.888 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:08:40.483 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:40.490 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:08:42.014 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:42.028 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:08:44.299 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:44.644 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778236714137 in sold pets list using Java Streams
+2026-05-08 16:08:44.649 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-08 16:08:44.695 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:08:44.699 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 16:08:44.701 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:08:46.287 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:46.323 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778236730550
+2026-05-08 16:08:46.323 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:08:48.057 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:48.063 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:08:49.802 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:49.806 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:08:52.090 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:52.181 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778236730550 in sold pets list using Java Streams
+2026-05-08 16:08:52.187 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-08 16:08:52.209 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:08:52.211 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 16:08:52.213 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:08:53.792 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:53.815 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778236736569
+2026-05-08 16:08:53.817 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:08:55.326 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:55.328 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:08:56.865 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:56.870 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:08:59.180 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:08:59.274 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778236736569 in sold pets list using Java Streams
+2026-05-08 16:08:59.276 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-08 16:08:59.332 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:08:59.334 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:09:00.855 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:00.863 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 682
+2026-05-08 16:09:00.867 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-08 16:09:03.383 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:03.490 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 681, Inventory count: 682
+2026-05-08 16:09:03.492 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 681, Inventory: 682 (Status: available)
+2026-05-08 16:09:03.495 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-08 16:09:03.513 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:09:03.514 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:09:05.156 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:05.162 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 41
+2026-05-08 16:09:05.164 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-08 16:09:07.319 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:07.337 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 41, Inventory count: 41
+2026-05-08 16:09:07.337 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 41, Inventory: 41 (Status: pending)
+2026-05-08 16:09:07.341 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-08 16:09:07.357 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:09:07.359 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:09:08.953 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:08.959 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 232
+2026-05-08 16:09:08.962 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:09:11.126 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:11.185 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 232, Inventory count: 232
+2026-05-08 16:09:11.185 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 232, Inventory: 232 (Status: sold)
+2026-05-08 16:09:11.187 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-08 16:09:11.219 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:09:11.223 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_29273fca and status: available
+2026-05-08 16:09:11.227 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:09:12.719 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:12.757 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778236753463
+2026-05-08 16:09:12.759 [main] INFO  utils.ApiUtils - GET request to: /pet/1778236753463
+2026-05-08 16:09:14.067 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:14.161 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:09:15.711 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:15.757 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778236753463
+2026-05-08 16:09:17.243 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:17.249 [main] INFO  utils.ApiUtils - GET request to: /pet/1778236753463
+2026-05-08 16:09:18.676 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:09:18.681 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:09:18.701 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:09:18.703 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_f6cc5373 and status: pending
+2026-05-08 16:09:18.705 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:09:20.234 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:20.259 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778236761194
+2026-05-08 16:09:20.261 [main] INFO  utils.ApiUtils - GET request to: /pet/1778236761194
+2026-05-08 16:09:21.753 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:21.813 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:09:23.263 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:23.293 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778236761194
+2026-05-08 16:09:24.563 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:24.565 [main] INFO  utils.ApiUtils - GET request to: /pet/1778236761194
+2026-05-08 16:09:26.163 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:09:26.169 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:09:26.185 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:09:26.187 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_da535c80 and status: available
+2026-05-08 16:09:26.187 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:09:27.757 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:27.786 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778236771807
+2026-05-08 16:09:27.790 [main] INFO  utils.ApiUtils - GET request to: /pet/1778236771807
+2026-05-08 16:09:29.326 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:29.401 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:09:30.963 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:31.000 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778236771807
+2026-05-08 16:09:32.601 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:32.605 [main] INFO  utils.ApiUtils - GET request to: /pet/1778236771807
+2026-05-08 16:09:34.140 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:09:34.146 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:09:34.168 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:09:34.169 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_669a1035 and invalid email: invalid_email
+2026-05-08 16:09:34.171 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:09:35.773 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:35.777 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-08 16:09:35.785 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:09:35.788 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_4135d666 and invalid email: no_at_symbol
+2026-05-08 16:09:35.788 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:09:37.413 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:37.415 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-08 16:09:37.426 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:09:37.426 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_320aad8c and invalid email: @nodomain
+2026-05-08 16:09:37.428 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:09:38.893 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:38.894 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-08 16:09:38.901 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 16:09:38.901 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 16:09:40.491 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:09:40.497 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Fetch non-existent user returns 404
+2026-05-08 16:09:40.507 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:09:40.508 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 16:09:42.021 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:42.039 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778236781282
+2026-05-08 16:09:42.044 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-08 16:09:42.046 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-08 16:09:42.055 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:09:42.055 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 16:09:43.669 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:09:43.702 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778236782895
+2026-05-08 16:09:43.702 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-08 16:09:43.706 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-08 16:09:44.870 [main] INFO  hooks.ExtentHooks - Extent Report ? target/extent-reports/ExtentReport.html
+2026-05-08 16:17:26.085 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:17:26.112 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: HighValueBulldog and status: available
+2026-05-08 16:17:26.133 [main] INFO  config.ConfigManager - Configuration loaded successfully
+2026-05-08 16:17:26.135 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:17:34.112 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:35.473 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778237255154
+2026-05-08 16:17:35.477 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:17:36.966 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:36.972 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:17:38.499 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:38.505 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:17:41.012 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:41.345 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778237255154 in sold pets list using Java Streams
+2026-05-08 16:17:41.347 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-08 16:17:41.394 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:17:41.396 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: PremiumPoodle and status: available
+2026-05-08 16:17:41.399 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:17:43.008 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:43.037 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778237266886
+2026-05-08 16:17:43.042 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:17:44.643 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:44.648 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:17:46.181 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:46.189 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:17:48.447 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:48.542 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778237266886 in sold pets list using Java Streams
+2026-05-08 16:17:48.547 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-08 16:17:48.576 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify pet status change reflects across endpoints
+2026-05-08 16:17:48.582 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with category: LuxuryLabrador and status: available
+2026-05-08 16:17:48.586 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:17:50.175 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:50.202 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778237278534
+2026-05-08 16:17:50.205 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:17:51.814 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:51.817 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:17:53.349 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:53.355 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:17:55.547 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:55.623 [main] INFO  stepdefinitions.PetSteps - Successfully found pet ID 1778237278534 in sold pets list using Java Streams
+2026-05-08 16:17:55.629 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify pet status change reflects across endpoints
+2026-05-08 16:17:55.666 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:17:55.666 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:17:57.138 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:57.144 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'available': 679
+2026-05-08 16:17:57.148 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=available}
+2026-05-08 16:17:59.720 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:17:59.863 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 679, Inventory count: 679
+2026-05-08 16:17:59.863 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 679, Inventory: 679 (Status: available)
+2026-05-08 16:17:59.865 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-08 16:17:59.881 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:17:59.881 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:18:01.403 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:01.408 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'pending': 41
+2026-05-08 16:18:01.411 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=pending}
+2026-05-08 16:18:03.605 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:03.623 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 41, Inventory count: 41
+2026-05-08 16:18:03.625 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 41, Inventory: 41 (Status: pending)
+2026-05-08 16:18:03.627 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-08 16:18:03.645 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Verify inventory count matches available pets
+2026-05-08 16:18:03.645 [main] INFO  utils.ApiUtils - GET request to: /store/inventory
+2026-05-08 16:18:05.329 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:05.333 [main] INFO  stepdefinitions.StoreSteps - Inventory count for status 'sold': 231
+2026-05-08 16:18:05.339 [main] INFO  utils.ApiUtils - GET request to: /pet/findByStatus with params: {status=sold}
+2026-05-08 16:18:07.533 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:07.573 [main] INFO  stepdefinitions.StoreSteps - Pets from findByStatus: 231, Inventory count: 231
+2026-05-08 16:18:07.575 [main] INFO  stepdefinitions.StoreSteps - Comparison - API pets: 231, Inventory: 231 (Status: sold)
+2026-05-08 16:18:07.577 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Verify inventory count matches available pets
+2026-05-08 16:18:07.614 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:18:07.614 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Buddy_d78095a5 and status: available
+2026-05-08 16:18:07.618 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:18:09.227 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:09.265 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778237287761
+2026-05-08 16:18:09.269 [main] INFO  utils.ApiUtils - GET request to: /pet/1778237287761
+2026-05-08 16:18:10.962 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:11.024 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:18:12.601 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:12.626 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778237287761
+2026-05-08 16:18:14.237 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:14.240 [main] INFO  utils.ApiUtils - GET request to: /pet/1778237287761
+2026-05-08 16:18:15.775 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:18:15.778 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:18:15.799 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:18:15.799 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Max_8172abed and status: pending
+2026-05-08 16:18:15.799 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:18:17.210 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:17.234 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778237304102
+2026-05-08 16:18:17.234 [main] INFO  utils.ApiUtils - GET request to: /pet/1778237304102
+2026-05-08 16:18:18.745 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:18.783 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:18:20.381 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:20.399 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778237304102
+2026-05-08 16:18:22.022 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:22.034 [main] INFO  utils.ApiUtils - GET request to: /pet/1778237304102
+2026-05-08 16:18:23.561 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:18:23.563 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:18:23.575 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:18:23.576 [main] INFO  stepdefinitions.PetSteps - Prepared pet payload with name: Charlie_fb77c38d and status: available
+2026-05-08 16:18:23.578 [main] INFO  utils.ApiUtils - POST request to: /pet
+2026-05-08 16:18:25.193 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:25.212 [main] INFO  stepdefinitions.PetSteps - Extracted pet ID: 1778237311750
+2026-05-08 16:18:25.214 [main] INFO  utils.ApiUtils - GET request to: /pet/1778237311750
+2026-05-08 16:18:26.834 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:26.884 [main] INFO  utils.ApiUtils - PUT request to: /pet
+2026-05-08 16:18:28.473 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:28.482 [main] INFO  utils.ApiUtils - DELETE request to: /pet/1778237311750
+2026-05-08 16:18:30.008 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:30.012 [main] INFO  utils.ApiUtils - GET request to: /pet/1778237311750
+2026-05-08 16:18:31.545 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:18:31.551 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Complete lifecycle of a pet - Create, Read, Update, Delete
+2026-05-08 16:18:31.586 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:18:31.588 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_74b02113 and invalid email: invalid_email
+2026-05-08 16:18:31.589 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:18:33.173 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:33.188 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-08 16:18:33.198 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:18:33.198 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_46b2f712 and invalid email: no_at_symbol
+2026-05-08 16:18:33.198 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:18:35.332 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:35.332 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-08 16:18:35.383 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Create user with invalid email format
+2026-05-08 16:18:35.383 [main] INFO  stepdefinitions.UserSteps - Prepared user payload with username: user_7d3714a8 and invalid email: @nodomain
+2026-05-08 16:18:35.383 [main] INFO  utils.ApiUtils - POST request to: /user
+2026-05-08 16:18:37.487 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:37.492 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Create user with invalid email format
+2026-05-08 16:18:37.501 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Fetch non-existent user returns 404
+2026-05-08 16:18:37.504 [main] INFO  utils.ApiUtils - GET request to: /user/nonExistentUser123456789
+2026-05-08 16:18:39.121 [main] INFO  utils.ApiUtils - Response status: 404
+2026-05-08 16:18:39.121 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Fetch non-existent user returns 404
+2026-05-08 16:18:39.139 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:18:39.139 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=wrongpass123, username=wronguser123}
+2026-05-08 16:18:40.658 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:40.672 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778237319885
+2026-05-08 16:18:40.674 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-08 16:18:40.677 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-08 16:18:40.686 [main] INFO  hooks.ExtentHooks - SCENARIO STARTED : Login with incorrect credentials fails
+2026-05-08 16:18:40.687 [main] INFO  utils.ApiUtils - GET request to: /user/login with params: {password=fakepassword, username=fakeuser}
+2026-05-08 16:18:42.297 [main] INFO  utils.ApiUtils - Response status: 200
+2026-05-08 16:18:42.314 [main] INFO  stepdefinitions.UserSteps - Login response message: logged in user session:1778237321526
+2026-05-08 16:18:42.314 [main] INFO  stepdefinitions.UserSteps - Verified no unauthorized session token returned
+2026-05-08 16:18:42.314 [main] INFO  hooks.ExtentHooks - SCENARIO PASSED : Login with incorrect credentials fails
+2026-05-08 16:18:43.269 [main] INFO  hooks.ExtentHooks - Extent Report â†’ target/extent-reports/ExtentReport.html
